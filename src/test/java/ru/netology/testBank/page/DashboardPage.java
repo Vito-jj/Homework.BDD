@@ -10,8 +10,8 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class DashboardPage {
     private SelenideElement heading = $("[data-test-id=dashboard]");
-    private final String balanceStart = "баланс: ";
-    private final String balanceFinish = " р. ";
+    private final String balanceStart = " баланс: ";
+    private final String balanceFinish = " р.\nПополнить";
     private ElementsCollection cards = $$(".list__item div");
 
     public DashboardPage() {
